@@ -2,24 +2,30 @@ import pandas as pd
 import numpy as np
 
 import string
+
+from utils import readData
 from sklearn.neural_network import LogistricRegression
 
 class MEMM:
 
-	def __init__(self,params):
-		self.parameters = params
+	self.MaxEntClassifier = None
+	self.TwoLabelClassifier = None
+
+	def __init__(self):
 
 
-	def Viterbi():
+	def viterbi(X, y):
+		
+
+	def fit(X, y):
+		
+
+	def predict(x):
 
 
-	def fit():
+	def predict_all(X):
 
 
-	def predict():
-
-
-	def predict_all():
-
-
-
+if __name__ == '__main__':
+	df_train, df_test, corpus, tags = readData('../data/')
+	
